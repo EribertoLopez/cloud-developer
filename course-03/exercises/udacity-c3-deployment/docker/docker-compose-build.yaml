@@ -3,7 +3,7 @@ services:
   reverseproxy:
     build:
       context: .
-    image: robohiba/reverseproxy
+    image: roboshiba/reverseproxy
   backend_user:
     build:
       context: ../../udacity-c3-restapi-user
