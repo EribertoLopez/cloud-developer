@@ -1,0 +1,18 @@
+version: "3"
+services:
+  reverseproxy:
+    build:
+      context: .
+    image: robohiba/reverseproxy
+  backend_user:
+    build:
+      context: ../../udacity-c3-restapi-user
+    image: roboshiba/udacity-c3-restapi-user
+  backend_feed:
+    build:
+      context: ../../udacity-c3-restapi-feed
+    image: roboshiba/udacity-c3-restapi-feed
+  frontend:
+    build:
+      context: ../../udacity-c3-frontend  
+    image: roboshiba/udacity-c3-frontend
