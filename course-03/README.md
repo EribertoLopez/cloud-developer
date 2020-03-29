@@ -4,7 +4,7 @@ content for Udacity's cloud developer nanodegree
 The images for submitting the 4th project for CDND:
 
 ### Image of containerized application on EKS AWS: 
-![webapp image](Screen Screen\ Shot\ 2020-03-28\ at\ 2.58.59\ PM.png)
+![webapp image](/images/webapp_image.png?raw=true "webapp_image")
 
 
 ### Screenshot of TravisCI Build:
