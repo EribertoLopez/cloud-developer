@@ -26,8 +26,10 @@ provider:
   environment:
     TODOS_TABLE: Todos-${self:provider.stage}
     INDEX_NAME: TodoIdIndex
-    IMAGES_S3_BUCKET: serverless-cloud-todo-app-bucket-${self:provider.stage}
+    IMAGES_S3_BUCKET: udacity-cloud-todo-app-bucket-${self:provider.stage}
     SIGNED_URL_EXPIRATION: 300
+    AUTH_0_SECRET_ID: Auth0Secret-${self:provider.stage}
+    AUTH_0_SECRET_FIELD: Auth
 
 custom:
   serverless-offline:

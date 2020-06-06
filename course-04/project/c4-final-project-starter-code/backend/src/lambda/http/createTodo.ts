@@ -13,7 +13,7 @@ export const handler: APIGatewayProxyHandler = async (event: APIGatewayProxyEven
   const newTodo: CreateTodoRequest = JSON.parse(event.body)
   const user_id = getUserId(event)
   const todoItem = await createTodo(newTodo, user_id)
-
+  logger.info(" Processing event for generating signed url", event)
 
   return {
     statusCode: 201,
