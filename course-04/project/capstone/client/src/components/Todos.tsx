@@ -191,7 +191,7 @@ export class Todos extends React.PureComponent<TodosProps, TodosState> {
           var map = <div/>
           if (lat && lng) {
             const someLatLng = {lat: lat, lng: lng}
-            const googleMapURL = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBpfM-DDuE48DwBeG95flsqEh2AJ9zwPCM'
+            const googleMapURL = 'https://maps.googleapis.com/maps/api/js?key=AXXXXXXXXXXXXXXXXX'
             const MyGoogleMap = withScriptjs(withGoogleMap(() =>
                 <GoogleMap
                     defaultCenter={someLatLng}
